@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    //defines what one rem is
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: $color-background;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: $color-white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:76.8rem) {
+
+    body{
+        font-size: $default-font-size;
+    }
+    
+}
+@media only screen and (min-width:48rem)  and (max-width:76.8rem){
+
+    body{
+        font-size: $normal-sized-phone;
+    }
+    
+}
+@media only screen and (max-width:47.9rem){
+
+    body{
+        font-size: $small-sized-phone;
+    }
+    
+}

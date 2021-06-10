@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #040714;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 76.8rem) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (min-width: 48rem) and (max-width: 76.8rem) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 47.9rem) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+body {
+  font-family: Avenir-Roman, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #f9f9f9;
+  padding: 3rem;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-top-huge {
+  margin-bottom: 10rem !important;
+}
+
+/*# sourceMappingURL=main.css.map */
